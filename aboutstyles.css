@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* 
+Author: Emily Carrillo-Ramirez
+MSU Denver login name: ecarril6
+Date Created: April 29,2012
+Date Due: May 2,2021
+Modified: Emily Carrillo-Ramirez
+Filename: aboutstyles.css
+Purpose: Styles for the about me layout.
+Editor: Emily Carrillo-Ramirez
+*/
+
+
+/* About Styles*/
+
+.intro-items-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+	padding: 20;
+			/* erase once done*/
+	border: 1px solid black;
+}
+
+.aboutme-img-wrapper img {
+	padding: 70px;
+	width: 50%;
+			/* erase once done*/
+	border: 1px solid black;
+}
+
+.text-content-wrapper {
+  padding: 20px;
+	/* erase once done*/
+	border: 1px solid black;
+	
+}
+
+.text-content-wrapper h1 {
+  color: #0029FD;
+}
+
+p {
+	font-family: sans-serif; 
+	font-size: 18px; 
+	text-align: center; 
+	background-color: rgba(255, 255, 255, 0);
+}
+

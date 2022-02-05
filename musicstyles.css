@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* 
+Author: Emily Carrillo-Ramirez
+MSU Denver login name: ecarril6
+Date Created: April 29,2012
+Date Due: May 2,2021
+Modified: Emily Carrillo-Ramirez
+Filename: musiicstyles.css
+Purpose: Stylesheet for musicportfolio.html
+Editor: Emily Carrillo-Ramirez
+*/
+
+/* Music cubesstyles */
+.music-items-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 10px;
+	margin:10px;
+	
+}
+
+.music-item-wrapper{
+	position: relative;
+}
+
+
+.music-img-background{
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat; 
+  	height: 460px;
+ 	width: 100%;
+}
+
+.img-text-wrapper{
+	position: absolute;
+  	top: 0;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+ 	height: 100%;
+  	text-align: center;
+  	padding-left: 100px;
+  	padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+	transition: 1s;
+  	color: transparent;
+	
+}
+
+.img-text-wrapper .artist-name {
+	transition: 1s;
+  	color: transparent;
+	
+}
+.image-blur {
+  	transition: 1s;
+  	filter: brightness(10%);
+}
+
+
+.img-text-wrapper:hover .artist-name {
+	background-color: darkblue;
+  	color: white;
+  	font-weight: 950;
+	font-style: bold;
+	text-decoration: none;
+}
+
+
+.img-text-wrapper:hover .subtitle {
+  	color: #51515E;
+  	font-weight: 900;
+}
+
+.logo-wrapper img {
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+

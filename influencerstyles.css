@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* 
+Author: Emily Carrillo-Ramirez
+MSU Denver login name: ecarril6
+Date Created: April 29,2012
+Date Due: May 2,2021
+Modified: Emily Carrillo-Ramirez
+Filename: influencerstyles.css
+Purpose: Stylesheet for influencer.html
+Editor: Emily Carrillo-Ramirez
+*/
+
+/* intro-row styles */
+
+.intro-half{
+	width: 40%;
+	float: right;
+}
+
+
+.intro-xlarge{
+	font-size: 44px;
+}
+
+
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+
+
+div.influencer-chart {
+	display:none;}
+/* Main Styles */
+
+ main {
+	 overflow: auto;
+	 position: relative;
+     height: 1450px;
+     width: 100%;
+}
+p{
+	font-size: 20px;
+}
+/* Collage Styles ( Photo book)*/
+
+div.influencer-chart {
+	position: absolute;
+}
+
+/* Sandra Picture */
+
+div#sandra {
+	display: block;
+	top: 30px;
+	left: 5%;
+}
+
+/* Sandra text */
+div#sandratext{
+	display: block;
+	top: 30px;
+	left: 25%;
+}
+
+/* Sandra Art 1*/
+div#sandra1 {
+	display: block;
+	top: 35px;
+	left: 50%;
+}
+
+/* Sandra Art 2 */
+
+div#sandra2 {
+	display: block;
+	top: 48px;
+	left: 70%;
+}
+
+
+/* Chris Picture */
+div#chris {
+	display: block;
+	top: 700px;
+	left: 5%;
+}
+
+/* Chris Text */
+div#christext{
+	display: block;
+	top: 700px;
+	left: 25%;
+}
+
+/* Chris Art 1*/
+
+div#chris1 {
+	display: block;
+	top: 705px;
+	left: 50%;
+}
+
+/* Chris Art 2 */
+
+div#chris2 {
+	display: block;
+	top: 788px;
+	left: 70%;
+}
+
+/* Ken Picture */
+
+div#ken {
+	display: block;
+	top: 1400px;
+	left: 5%;
+}
+
+/* Ken Text*/
+div#kentext{
+	display: block;
+	top: 1400px;
+	left: 25%;
+}
+/* Ken Art 1*/
+
+div#ken1 {
+	display: block;
+	top: 1405px;
+	left: 50%;
+}
+
+/* Ken Art 2 */
+
+div#ken2 {
+	display: block;
+	top: 1488px;
+	left: 70%;
+}

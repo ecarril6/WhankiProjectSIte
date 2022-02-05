@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* 
+Author: Emily Carrillo-Ramirez
+MSU Denver login name: ecarril6
+Date Created: April 29,2012
+Date Due: May 2,2021
+Modified: Emily Carrillo-Ramirez
+Filename: indexstyles.css
+Purpose: Stylesheet for index.html
+Editor: Emily Carrillo-Ramirez
+*/
+
+div.photobox {
+	display:none;}
+/* Main Styles */
+
+ main {
+	 overflow: auto;
+	 position: relative;
+     height: 450px;
+     width: 100%;
+}
+
+/* Collage Styles ( Photo book)*/
+
+div.photobox {
+	position: absolute;
+}
+
+/* First Picture */
+
+div#polaroid1 {
+	display: block;
+	top: 30px;
+	left: 3%;
+}
+
+
+/* Second Picture*/
+
+div#polaroid2 {
+	display: block;
+	top: 185px;
+	left: 40%;
+}
+
+/* Third Picture */
+
+div#polaroid3 {
+	display: block;
+	top: 135px;
+    left: 70%;
+}
+
+/* Fourth Picture */
+
+div#polaroid4 {
+     display: block;
+     top: 730px;
+     left: 8%;
+}
+
+/* Fifth Picture */
+
+div#polaroid5 {
+     display: block;
+     top: 600px;
+     left: 60%;
+}
+
+
+/* First Lyrics */
+
+div#lyrics1 {
+     display: block;
+     top: 530px;
+     left: 70%;
+}
+
+/* Second Lyrics */
+
+ div#lyrics2 {
+      display: block;
+      top: 22px;
+      left: 40%;
+}
+
+/* Third Lyrics */
+
+ div#lyrics3 {
+      display: block;
+      top: 900px;
+      left: 60%;
+}
+
+/* Fourth Lyrics */
+
+ div#lyrics4 {
+      display: block;
+      top: 600px;
+      left: 15%;
+
+}
+

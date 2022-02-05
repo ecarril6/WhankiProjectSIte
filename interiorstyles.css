@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* 
+Author: Emily Carrillo-Ramirez
+MSU Denver login name: ecarril6
+Date Created: April 29,2012
+Date Due: May 2,2021
+Modified: Emily Carrillo-Ramirez
+Filename: interiorstyles.css
+Purpose: Stylesheet for interiordesign.html
+Editor: Emily Carrillo-Ramirez
+*/
+
+/* Navigation List Styles */
+nav {
+	display: table;
+	width: 100%;
+}
+
+nav > ul {
+	display: table-row;
+}
+
+nav > ul > li {
+	display: table-cell;
+	text-align: center;
+}
+
+nav > ul > li > a {
+	display: block;
+}
+
+
+/* Section Styles */
+
+section {
+	clear: right;
+}
+
+/* Description List Styles */
+
+dl {
+	float: right;
+	width: 40%;
+	margin: 0 0 0 4%;
+}
+/* Navigation Styles */
+nav a {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav a:link, 
+nav a:visited {
+	color: white;
+	text-decoration: none;
+	background-color: hsla(0, 0%, 42%, 0.4);
+}
+
+nav a:hover,
+nav a:active {
+	color: hsla(0, 0%, 100%, 0.7);
+	background-color: hsla(0, 0%, 42%, 0.7);
+}
+
+
+/* Section Styles */
+section{
+	padding: 20px;
+}
+section.interior h1 {
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px 0 10px 20px;
+}
+
+
+.chair-img-background{
+	position: relative;
+	text-align: center;
+}
+
+#prints{
+	
+}
+.prints-img-background{
+	position: relative;
+	text-align: center;
+}
+#candle{
+	
+}
+.candle-img-background{
+	position: relative;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+

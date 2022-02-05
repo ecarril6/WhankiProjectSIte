@@ -1,0 +1,161 @@
+<!doctype html>
+<!--
+Author: Emily Carrillo-Ramirez
+MSU Denver login name: ecarril6
+Date Created: April 29,2012
+Date Due: May 2,2021
+Modified: Emily Carrillo-Ramirez
+Filename: index.html
+Purpose: Serves as the homepage of a collage of polaroids with 
+lyrics using the skills I learned this semester for an artistic homepage.
+Editor: Emily Carrillo-Ramirez
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Untitled Document</title>
+<link href="main.css" rel="stylesheet" type="text/css">	
+<link href="indexstyles.css" rel="stylesheet" type="text/css">
+</head>
+	
+
+<body>
+	<div class="container">
+		<div class="nav-wrapper">
+			
+			<div class="left-side">
+				<div class="nav-link-wrapper active-nav-link">
+					<a href="index.html"> Home</a>
+				</div>
+				
+			  <div class="nav-link-wrapper ">
+					<a href="musicportfolio.html"> Music</a>
+				</div>	
+				
+				<div class="nav-link-wrapper  ">
+					<a href="influencer.html">Influencers</a>
+				</div>	
+				
+				<div class="nav-link-wrapper ">
+					<a href="interiordesign.html">Shop</a>
+				</div>	
+					
+	
+			</div><!-- end of left-side class-->
+			
+			<div class="right-side">
+				<div class="logo"> 
+					<img src="logo.png" alt="whanki logo" width="100">
+				</div>
+				
+			</div> <!-- end of right-side class-->
+		</div><!-- end of nav-wrapper class-->
+		
+		
+
+		
+		<!-- anything below nav bar-->
+		<div class="content-wrapper">
+			   <main id="graphic">
+				   <div id="polaroid1" class="photobox">
+					   <img src="images/polaroidone.jpg" alt="" style="width:500px;height:600px;">
+				   </div> <!-- end of pic 1 -->
+				   
+				   <div id="polaroid2" class="photobox">
+					   <img src="images/polaroidtwo.jpg" alt="" style="width:400px;height:500px;">
+		
+				   </div><!-- end of pic 2 -->
+				   
+				   <div id="polaroid3" class="photobox">
+					   <img src="images/polaroidthree.jpg" alt="" style="width:400px;height:500px;">
+				   </div> <!-- end of pic 3 -->
+				   
+				   <div id="polaroid4" class="photobox">
+					   <img src="images/polaroidfour.jpg" alt="" style="width:400px;height:500px;">
+				   </div> <!-- end of pic 4 -->
+				   
+				   <div id="polaroid5" class="photobox">
+					   <img src="images/polaroidfive.jpg" alt="" style="width:300px;height:400px;">
+				   </div><!-- end of pic 5 -->
+				   
+				   <div id="lyrics1" class="photobox">
+					   <img src="images/lyrics1.png" alt="" >
+				   </div><!-- end of lyics 1 -->
+				   
+				   <div id="lyrics2" class="photobox">
+					   <img src="images/lyrics2.png" alt="" >
+				   </div><!-- end of lyics 2 -->	
+				   
+				   <div id="lyrics3" class="photobox">
+					   <img src="images/lyrics3.png" alt="" >
+				   </div><!-- end of lyics 3 -->
+				   
+				   <div id="lyrics4" class="photobox">
+					   <img src="images/lyrics4.png" alt="">
+				   </div><!-- end of lyics 4 -->	
+
+			</main>
+		</div><!-- end of content-wrapper class-->
+		
+
+	
+	<!-- Beginning of Footer Section -->
+	<div class="FooterContainer">
+		<div class="FooterDetails_Container">
+			<div class="FooterDetails_AddressContainer">
+				<div>
+					<p class= "address_style"> whanki.</p>
+					<p class= "address_style"> 2000 Block St.</p>
+					<p class= "address_style"> Paloalto, California</p>
+					<p class= "address_style"> 123.123.123</p>
+				</div>
+			</div><!-- footer address container-->
+		</div><!-- footer details container-->
+	
+	<section id="links" class="FooterLinks">
+		<div class="FooterLinks_Inner">
+			<a href="index.html">
+				<p class= "FooterLinksStyle"> Home </p>
+			</a>
+			<a href="musicportfolio.html">
+				<p class= "FooterLinksStyle"> Music </p>
+			</a>
+			<a href="influencer.html">
+				<p class= "FooterLinksStyle"> Influencers </p>
+			</a>
+			<a href="interiordesign.html">
+				<p class= "FooterLinksStyle"> Interior </p>
+			</a>
+		</div>
+	</section>
+		
+		
+	</div><!-- footer container-->
+	
+	<div class="Footer_ClassRequirement">
+		<p> This Website was created in partial fulfilment of my CIS 3030 course requirements.</p>
+	</div>
+		
+	</div> <!-- end of container class-->
+		
+</body>
+	
+<!-- JAVASCRIPT
+whenever someone hovers add the -->	
+<script>
+	const musicItems= document.querySelectorAll('.music-items-wrapper')
+	
+	musicItems.forEach(musicItem => {
+		musicItem.addEventListener("mouseover',() =>"){
+      	console.log(musicItem.childNodes[1].classList)
+      	musicItem.childNodes[1].classList.add('image-blur');
+    });
+
+   musicItem.addEventListener('mouseout', () => {
+	   console.log(musicItem.childNodes[1].classList)
+	   musicItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+</script>	
+</html>
